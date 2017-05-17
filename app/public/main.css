@@ -342,7 +342,7 @@ body .wrapper main .aboutus .cont2 .textt p {
   font-size: 0.8em;
 }
 body .wrapper main .form {
-  padding: 30px;
+  padding: 60px;
   background-image: url("../img/fon2.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -352,17 +352,91 @@ body .wrapper main .form form {
   display: block;
   margin: 0 auto;
   background: #f7f7f7;
-  width: 27%;
+  width: 30%;
+  position: relative;
+  padding: 2%;
 }
 body .wrapper main .form form legend {
-  font-size: 20px;
+  font-size: 2em;
+  font-weight: bold;
   text-align: center;
 }
 body .wrapper main .form form input {
   display: block;
   width: 85%;
   margin: 0 auto;
+  padding: 5px;
+  margin-top: 3%;
+}
+body .wrapper main .form form label {
+  margin-left: 7%;
+  text-align: center;
+  margin-bottom: 3%;
 }
 body .wrapper main .form form label span {
   color: #d92352;
+}
+body .wrapper main .form form p {
+  text-align: center;
+  font-size: 0.9em;
+}
+body .wrapper main .form form button {
+  display: block;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  background: #d73149;
+}
+body .wrapper main .form form button:hover {
+  box-shadow: 0 0 5px #000;
+}
+body .wrapper footer {
+  background: #353535;
+  padding: 2%;
+  color: #fff;
+  font-size: 0.9em;
+}
+body .wrapper footer i {
+  color: #fff;
+}
+body .wrapper footer h3 {
+  text-align: center;
+  font-size: 1.7em;
+  color: #fff;
+}
+body .wrapper footer p {
+  margin-top: 1%;
+}
+body .wrapper footer .cont3 {
+  overflow: hidden;
+}
+body .wrapper footer .cont3 >div {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 1%;
+}
+body .wrapper footer .cont3 .icons a {
+  margin-right: 1%;
+}
+body .wrapper footer .cont3 .icons a span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+body .wrapper footer .cont3 .icons .face span {
+  background: #375697;
+}
+body .wrapper footer .cont3 .icons .twit span {
+  background: #3ea8ee;
+}
+body .wrapper footer .cont3 .icons .vk span {
+  background: #47759f;
 }

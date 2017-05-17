@@ -4,6 +4,7 @@ head
 	meta(charset="UTF-8")
 	title Document
 	link(rel="stylesheet", href="app/public/main.css")
+	script(src="https://use.fontawesome.com/8672c190e4.js")
 body
 	.wrapper
 		header
@@ -18,7 +19,7 @@ body
 							li
 								a(href="#") Отзывы
 							li
-								a(href="#") О нас
+								a(href="#us") О нас
 							li
 								a(href="#") Заказать 
 							li
@@ -154,7 +155,7 @@ body
 							h3 Андрей Ковалев
 							p ЧП
 							p Приятно работать с хорошими людьми!Команда Махаон быстро и качественно переделала мой старый сайт. Я доволен!До знакомства с вами я неоднократно сталкивался с некачественными разработчиками. И лишь вы за вменяемые деньги сделали Все что я хотел. Где нужно, дали грамотные консультации.А вам желаю много прибыльный проектов! Спасибо!
-			.aboutus
+			.aboutus#us
 				h3 О нас
 				.cont2
 					.imag
@@ -174,7 +175,38 @@ body
 					input(type="text" id="Phone") 
 					label(for="Email") Ваш email
 					input(type="email")
+					p Оплата при получении </br> доставка 5-7 дней
 					button(type="submit") Отправить
+
 					
 						
 		footer
+			h3 Наши контакты
+			.cont3
+				.adress
+					h4 Где нас найти
+					p 
+						i.fa.fa-map-marker
+						span ул.Коцарского 25,офис 306
+
+				.contacts
+					h4 Как с нами связаться
+					p
+						i.fa.fa-phone
+						span +38073-499-08-29
+					p
+						i.fa.fa-envelope
+						span webnote@gmail.com
+				.icons
+					h4 Следите за новостями
+					br
+					a(href="#").face
+						span
+							i.fa.fa-facebook
+					a(href="#").twit
+						span
+							i.fa.fa-twitter
+					a(href="#").vk
+						span
+							i(class="fa fa-vk" aria-hidden="true")
+

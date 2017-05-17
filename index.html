@@ -4,6 +4,7 @@
   <meta charset="UTF-8"/>
   <title>Document</title>
   <link rel="stylesheet" href="app/public/main.css"/>
+  <script src="https://use.fontawesome.com/8672c190e4.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -14,7 +15,7 @@
             <ul>
               <li><a href="#">Описание</a></li>
               <li><a href="#">Отзывы</a></li>
-              <li><a href="#">О нас</a></li>
+              <li><a href="#us">О нас</a></li>
               <li><a href="#">Заказать </a></li>
               <li><a href="#">Контакты</a></li>
             </ul>
@@ -132,7 +133,7 @@
           </div>
         </div>
       </div>
-      <div class="aboutus">
+      <div id="us" class="aboutus">
         <h3>О нас</h3>
         <div class="cont2">
           <div class="imag"><img src="app/img/team.png" alt=""/></div>
@@ -150,10 +151,27 @@
           <input type="text" id="Phone"/>
           <label for="Email">Ваш email</label>
           <input type="email"/>
+          <p>Оплата при получении </br> доставка 5-7 дней</p>
           <button type="submit">Отправить</button>
         </form>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <h3>Наши контакты</h3>
+      <div class="cont3">
+        <div class="adress">
+          <h4>Где нас найти</h4>
+          <p> <i class="fa fa-map-marker"></i><span>ул.Коцарского 25,офис 306</span></p>
+        </div>
+        <div class="contacts">
+          <h4>Как с нами связаться</h4>
+          <p><i class="fa fa-phone"></i><span>+38073-499-08-29</span></p>
+          <p><i class="fa fa-envelope"></i><span>webnote@gmail.com</span></p>
+        </div>
+        <div class="icons">
+          <h4>Следите за новостями</h4><br/><a href="#" class="face"><span><i class="fa fa-facebook"></i></span></a><a href="#" class="twit"><span><i class="fa fa-twitter"></i></span></a><a href="#" class="vk"><span><i aria-hidden="true" class="fa fa-vk"></i></span></a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
