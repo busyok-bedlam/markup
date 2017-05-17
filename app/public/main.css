@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 1s all ease;
+}
+a {
+  text-decoration: none;
+}
+.but1 {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background: #d73149;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.but1:hover {
+  background: #e36a7b;
+  color: #000;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+body .wrapper {
+  background: url("../img/fon.png");
+}
+body .wrapper header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body .wrapper header .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+body .wrapper header .top nav {
+  height: 100px;
+  background: rgba(64,64,64,0.45);
+}
+body .wrapper header .top nav .menu {
+  width: 63.541%;
+  margin-left: 15.36%;
+}
+body .wrapper header .top nav .menu >a {
+  float: left;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  text-indent: 10px;
+}
+body .wrapper header .top nav .menu >a:hover {
+  text-shadow: 0 0 5px #fff;
+}
+body .wrapper header .top nav .menu ul {
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+body .wrapper header .top nav .menu ul li {
+  float: left;
+  list-style-type: none;
+  width: 20%;
+  height: 100%;
+}
+body .wrapper header .top nav .menu ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  height: 100%;
+  width: 100%;
+}
+body .wrapper header .top nav .menu ul li a:hover {
+  background: rgba(75,75,75,0.75);
+}
+body .wrapper header .top .cont1 {
+  color: #fff;
+  margin-left: 15.36%;
+  padding-left: 4%;
+}
+body .wrapper header .top .cont1 h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+body .wrapper header .top .cont1 p {
+  font-size: 1.2em;
+}
+body .wrapper main .consider {
+  width: 63.541%;
+  margin-left: 15.36%;
+  background-size: contain;
+  overflow: hidden;
+}
+body .wrapper main .consider h2 {
+  text-align: center;
+  color: #7dc39f;
+}
+body .wrapper main .consider .cont2 {
+  overflow: hidden;
+}
+body .wrapper main .consider .cont2 .book {
+  float: left;
+  width: 40%;
+}
+body .wrapper main .consider .cont2 .descr {
+  float: right;
+  width: 40%;
+}
+body .wrapper main .consider .cont2 .descr article {
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+body .wrapper main .consider .cont2 .descr article h3 {
+  color: #7dc39f;
+}
+body .wrapper main .consider .cont2 .descr article a {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 60px;
+  text-align: center;
+}
+body .wrapper main .consider .cont2 .descr article p {
+  width: 70%;
+  float: left;
+}
+body .wrapper main .consider .cont2 .descr .art1 a img {
+  width: 49px;
+  height: 47px;
+}
+body .wrapper main .consider .cont2 .descr .art2 a img {
+  width: 35px;
+  height: 55px;
+}
+body .wrapper main .consider .cont2 .descr .art3 a img {
+  width: 50px;
+  height: 50px;
+}
+body .wrapper main .consider .cont2 .descr .art4 a img {
+  width: 47px;
+  height: 46px;
+}
+body .wrapper main .consider >a {
+  text-align: center;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+body .wrapper main .slider-wrap {
+  background: #353535;
+}
+body .wrapper main .slider-wrap input {
+  display: none;
+}
+body .wrapper main .slider-wrap #but1:checked ~ .slider .slide-cont .slide {
+  margin-left: -100%;
+}
+body .wrapper main .slider-wrap #but2:checked ~ .slider .slide-cont .slide {
+  margin-left: -114.2857%;
+}
+body .wrapper main .slider-wrap #but3:checked ~ .slider .slide-cont .slide {
+  margin-left: -128.5714%;
+}
+body .wrapper main .slider-wrap #but4:checked ~ .slider .slide-cont .slide {
+  margin-left: -142.8571%;
+}
+body .wrapper main .slider-wrap #but5:checked ~ .slider .slide-cont .slide {
+  margin-left: -157.1428%;
+}
+body .wrapper main .slider-wrap #but6:checked ~ .slider .slide-cont .slide {
+  margin-left: -171.4285%;
+}
+body .wrapper main .slider-wrap #but7:checked ~ .slider .slide-cont .slide {
+  margin-left: -185.7142%;
+}
+body .wrapper main .slider-wrap #but1:checked ~ .slider .slide-cont .slide li:nth-child(11),
+body .wrapper main .slider-wrap #but2:checked ~ .slider .slide-cont .slide li:nth-child(12),
+body .wrapper main .slider-wrap #but3:checked ~ .slider .slide-cont .slide li:nth-child(13),
+body .wrapper main .slider-wrap #but4:checked ~ .slider .slide-cont .slide li:nth-child(14),
+body .wrapper main .slider-wrap #but5:checked ~ .slider .slide-cont .slide li:nth-child(15),
+body .wrapper main .slider-wrap #but6:checked ~ .slider .slide-cont .slide li:nth-child(16),
+body .wrapper main .slider-wrap #but7:checked ~ .slider .slide-cont .slide li:nth-child(17) {
+  border: 3px solid #000;
+  transform: scale(1.3);
+}
+body .wrapper main .slider-wrap #but1:checked ~ .slider label:nth-child(2),
+body .wrapper main .slider-wrap #but2:checked ~ .slider label:nth-child(3),
+body .wrapper main .slider-wrap #but3:checked ~ .slider label:nth-child(4),
+body .wrapper main .slider-wrap #but4:checked ~ .slider label:nth-child(5),
+body .wrapper main .slider-wrap #but5:checked ~ .slider label:nth-child(6),
+body .wrapper main .slider-wrap #but6:checked ~ .slider label:nth-child(7),
+body .wrapper main .slider-wrap #but7:checked ~ .slider label:nth-child(1) {
+  display: block;
+}
+body .wrapper main .slider-wrap #but1:checked ~ .slider label:nth-child(7),
+body .wrapper main .slider-wrap #but2:checked ~ .slider label:nth-child(1),
+body .wrapper main .slider-wrap #but3:checked ~ .slider label:nth-child(2),
+body .wrapper main .slider-wrap #but4:checked ~ .slider label:nth-child(3),
+body .wrapper main .slider-wrap #but5:checked ~ .slider label:nth-child(4),
+body .wrapper main .slider-wrap #but6:checked ~ .slider label:nth-child(5),
+body .wrapper main .slider-wrap #but7:checked ~ .slider label:nth-child(6) {
+  display: block;
+  left: 2%;
+}
+body .wrapper main .slider-wrap #but1:checked ~ .slider label:nth-child(7) >span,
+body .wrapper main .slider-wrap #but2:checked ~ .slider label:nth-child(1) >span,
+body .wrapper main .slider-wrap #but3:checked ~ .slider label:nth-child(2) >span,
+body .wrapper main .slider-wrap #but4:checked ~ .slider label:nth-child(3) >span,
+body .wrapper main .slider-wrap #but5:checked ~ .slider label:nth-child(4) >span,
+body .wrapper main .slider-wrap #but6:checked ~ .slider label:nth-child(5) >span,
+body .wrapper main .slider-wrap #but7:checked ~ .slider label:nth-child(6) >span {
+  transform: rotate(-45deg);
+}
+body .wrapper main .slider-wrap #but1:checked ~.slider .div-text .text1,
+body .wrapper main .slider-wrap #but2:checked ~.slider .div-text .text2,
+body .wrapper main .slider-wrap #but3:checked ~.slider .div-text .text3,
+body .wrapper main .slider-wrap #but4:checked ~.slider .div-text .text4,
+body .wrapper main .slider-wrap #but5:checked ~.slider .div-text .text5,
+body .wrapper main .slider-wrap #but6:checked ~.slider .div-text .text6,
+body .wrapper main .slider-wrap #but7:checked ~.slider .div-text .text7 {
+  display: block;
+}
+body .wrapper main .slider-wrap .slider {
+  width: 63.541%;
+  margin-left: 15.36%;
+  font-size: 0.9em;
+  position: relative;
+  padding: 50px;
+}
+body .wrapper main .slider-wrap .slider label {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 37%;
+  transform: translateY(-50%);
+  right: 2%;
+}
+body .wrapper main .slider-wrap .slider label:hover {
+  cursor: pointer;
+}
+body .wrapper main .slider-wrap .slider label:hover>span {
+  border-top: 3px solid #6dc09c;
+  border-left: 3px solid #6dc09c;
+}
+body .wrapper main .slider-wrap .slider label span {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #598a73;
+  border-left: 3px solid #598a73;
+  top: 30%;
+  left: 30%;
+  transform: rotate(135deg);
+}
+body .wrapper main .slider-wrap .slider .slide-cont {
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+body .wrapper main .slider-wrap .slider .slide-cont h3 {
+  text-align: center;
+  color: #72c59f;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body .wrapper main .slider-wrap .slider .slide-cont .slide {
+  width: 300%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-left: -100%;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+body .wrapper main .slider-wrap .slider .slide-cont .slide li {
+  float: left;
+  width: calc(100% / 21);
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .wrapper main .slider-wrap .slider .div-text .text {
+  display: none;
+}
+body .wrapper main .slider-wrap .slider .div-text .text h3 {
+  text-align: center;
+  color: #72c59f;
+}
+body .wrapper main .slider-wrap .slider .div-text .text p {
+  color: #fff;
+  text-align: center;
+}
+body .wrapper main .aboutus {
+  width: 63.541%;
+  margin-left: 15.36%;
+}
+body .wrapper main .aboutus h3 {
+  color: #72c59f;
+  font-size: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+body .wrapper main .aboutus .cont2 {
+  overflow: hidden;
+}
+body .wrapper main .aboutus .cont2 .imag {
+  width: 60%;
+  float: left;
+}
+body .wrapper main .aboutus .cont2 .textt {
+  float: right;
+  width: 30%;
+}
+body .wrapper main .aboutus .cont2 .textt a {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #72c59f;
+  color: #000;
+  width: 140px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  font-size: 0.8em;
+  text-align: center;
+}
+body .wrapper main .aboutus .cont2 .textt a:hover {
+  background: #ccc;
+}
+body .wrapper main .aboutus .cont2 .textt p {
+  margin-top: 50%;
+  font-size: 0.8em;
+}
+body .wrapper main .form {
+  padding: 30px;
+  background-image: url("../img/fon2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% 30%;
+}
+body .wrapper main .form form {
+  display: block;
+  margin: 0 auto;
+  background: #f7f7f7;
+  width: 27%;
+}
+body .wrapper main .form form legend {
+  font-size: 20px;
+  text-align: center;
+}
+body .wrapper main .form form input {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+body .wrapper main .form form label span {
+  color: #d92352;
+}
